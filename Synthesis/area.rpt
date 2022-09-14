@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : Up_Down_Counter
+Version: K-2015.06
+Date   : Wed Sep 14 17:28:04 2022
+****************************************
+
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/IC/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+Number of ports:                           17
+Number of nets:                            62
+Number of cells:                           47
+Number of combinational cells:             42
+Number of sequential cells:                 5
+Number of macros/black boxes:               0
+Number of buf/inv:                         13
+Number of references:                      30
+
+Combinational area:                380.074103
+Buf/Inv area:                       91.782601
+Noncombinational area:             134.143801
+Macro/Black Box area:                0.000000
+Net Interconnect area:           18340.092407
+
+Total cell area:                   514.217904
+Total area:                      18854.310311
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Up_Down_Counter                    514.2179    100.0  380.0741   134.1438  0.0000  Up_Down_Counter
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 380.0741   134.1438  0.0000
+
+1
