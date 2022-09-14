@@ -1,7 +1,7 @@
 # Up_Down_Counter
 This is the Verilog code and synthesis output of my parameterized up-down counter.
 
-<p3>My Design:</p3>
+<h3>My Design:</h3>
  - The counter counts value loaded from the "i_in" port on a positive clock edge when the "i_load" signal is high, i_load has the highest priority
  - The counter counts the value incremented by 1 on a positive clock edge when the "i_up" signal is high.
  - The counter counts the value decremented by 1 on a positive clock edge when the "i_down" signal is high, i_up has higher priority than the i_down signal
