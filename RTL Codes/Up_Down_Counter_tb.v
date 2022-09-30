@@ -59,7 +59,7 @@ end
 
 always #50 i_clk_tb = ! i_clk_tb ;
 
-Up_Down_Cointer #(.DATA_WIDTH(DATA_WIDTH_tb)) DUT (
+Up_Down_Counter #(.DATA_WIDTH(DATA_WIDTH_tb)) DUT (
  .i_clk(i_clk_tb)          ,
  .i_rst_n(i_rst_n_tb)      ,
  .i_in(i_in_tb)            ,
